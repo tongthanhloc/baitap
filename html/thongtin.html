@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Sinh Viên</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/all.min.js"></script>
+	<script src="../js/huy.js"> </script>
+	<script src="../js/all.min.js"></script>
+	<script src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/code.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/content.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="img-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: chartreuse;">
+                        <a class="navbar-brand" href="index.html"><img src="../img/banner/logo..jpg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../html/index.html">Trang Chủ<span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../html/thongtin.html">Thông Tin</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sản Phẩm
+                                    </a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="">Snack</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="">Bánh Quy</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="">Bánh Gạo</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="">Bánh Bông Lan</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm tại đây.." aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="submit"><i
+                                        class="fas fa-search"></i>Go</button>
+                            </form>
+                            <div>
+                                
+                                        <ul class="navbar-nav mr-auto">
+                                            <li class="nav-item" id="btndangky">
+                                                <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Đăng ký / Đăng nhập<br><i
+                                                        class="fa fa-user"></i>Tài khoản</a>
+                                            </li> 
+                                        
+                                    
+                                  
+                                    <li class="nav-item">
+                                        <a class="nav-link my-2" href="GioHang.html"><i
+                                                class="fa fa-shopping-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+
+        <div style="min-height: 400px;" id="thongtin">
+            <h4 class="mt-5 text-center"><strong>Đề tài:</strong> Website giới thiệu, bán bánh kẹo trực tuyến
+            </h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Họ và tên</th>
+                                <th>MSSV</th>
+                                <th>Lớp</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1</th>
+                                <td>Nguyễn Quốc Huy</td>
+                                <td>21075411</td>
+                                <td>DHKHMT17B</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Trần Minh Châu</td>
+                                <td>21070211</td>
+                                <td>DHKHMT17B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center text-lg-start bg-light text-muted mt-lg-3">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Đồng hành cùng chúng tôi</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-google"></i>
+                    </a>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="icon-network me-4 mr-sm-2 text-reset">
+                        <i class="icon-social fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>SHOP BÁNH KẸO
+                            </h6>
+                            <p>
+                                Bánh kẹo là ngọt có một hương vị dễ chịu, đặc biệt là một liên quan đến cảm giác vị giác cơ bản gây ra bởi đường trong khi bánh kẹo có liên quan đến, hoặc về bản chất của bánh kẹo hoặc sản xuất của họ.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                SẢN PHẨM
+                            </h6>
+                            <p>
+                                <a href="#" class="inf-usefull text-reset">Snack</a>
+                            </p>
+                            <p>
+                                <a href="#" class="inf-usefull text-reset">Bánh Quy</a>
+                            </p>
+                            <p>
+                                <a href="#" class="inf-usefull text-reset">Bánh Gạo</a>
+                            </p>
+                            <p>
+                                <a href="#" class="inf-usefull text-reset">Bánh Bông Lan</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                LIÊN KẾT
+                            </h6>
+                            <p>
+                                <a href="#!" class="inf-usefull text-reset">Cài đặt</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="inf-usefull text-reset">Đơn hàng</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="inf-usefull text-reset">Help</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i>HCM - 12 Nguyễn Văn Bảo - Quận Gò Vấp</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i> nguyenquochuypy84@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> 0336248047</p>
+                            <p><i class="fas fa-print me-3"></i> 0337554507</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                ©
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Shop Bánh Kẹo
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <div class="modal fade" role="dialog" id="myModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="margin-top: 10px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-left"> ĐĂNG NHẬP</h2>
+                    <button type="button" class="close" aria-label="Close" data-dismiss="modal" style="color: red; outline: none;">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal" style="margin-left: 10px;">
+
+                        <input type="email" id="emailDN" class="form-control" placeholder="Nhập email của bạn..">
+                        <span class="text-danger" id="tbemailDN">*</span><br>
+
+                        <input type="password" id="MKDN" class="form-control" placeholder="Nhập mật khẩu của bạn">
+                        <span class="text-danger" id="tbMKDN">*</span>
+                        <div class="row">
+                            <div class="col-md-6" style="padding-top: .35rem">
+                                <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" name="remember" type="checkbox" >
+                                        <span style="padding-bottom: 15px">Remember me</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-info btn-block" id="btndangnhap" style="color: black; text-decoration: none;">Đăng nhập</button>
+                    </form>
+                    <div class="text-center text-muted my-sm-2">Hoặc tiếp tục bằng</div>
+                    <div class="d-flex justify-content-center social-buttons">
+                        <button type="button" class="btn btn-secondary mr-sm-3" data-toggle="tooltip" data-placement="top" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary mr-sm-3" data-toggle="tooltip" data-placement="top" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <div class="dangky">Nếu bạn chưa có tài khoản? <span style="cursor: pointer;" > 
+                        <li class="nav-item" id="btntao">
+                            <a class="nav-link" href="#" data-toggle="modal fake" data-target="#myModal1">Đăng ký 
+                        </li>  </span>      
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" role="dialog" id="myModal1" aria-hidden="true">
+        <div class="modal-lg modal-dialog modal-dialog-centered" style="margin-top: 10px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-left">THÔNG TIN CÁ NHÂN</h2>
+                    <button type="button" class="close" data-dismiss="modal" style="color: red; outline: none;">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" id="Name" class="form-control" placeholder="Nhập họ tên" required>
+                                <span class="text-danger" id="tbName">*</span>
+                            </div>
+                            <div class="col-md-6" style="margin-bottom: 10px;">
+                                <input type="email" id="Em" class="form-control" placeholder="Nhập email" value="quochuy123@gmail.com" required>
+                                <span class="text-danger" id="tbEM">*</span>
+                            </div>
+                        </div>
+
+                        <div class="row"><label for="NS" class="control-label col-md-3">Ngày sinh</label></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="date" id="NS" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" id="SDT" class="form-control" placeholder="Nhập số điện thoại">
+                                <span class="text-danger" id="errorSDT"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label for="MK" class="control-label col-md-6">Mật khẩu</label>
+                            <div class="col-md-12">
+                                <input type="password" id="MK" class="form-control" placeholder="Nhập mật khẩu">
+                                <span class="text-danger" id="tbMK">*</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label for="NLMK" class="control-label col-md-6">Nhập lại mật khẩu</label>
+                            <div class="col-md-12">
+                                <input type="password" id="NLMK" class="form-control" placeholder="Nhập lại mật khẩu">
+                                <span class="text-danger" id="tbNLMK">*</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label for="GT" class="control-label col-md-3 mt-sm-2">Giới tính</label>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radnam">
+                                    <input type="radio" class="form-check-input" id="radnam" name="gioitinh">Nam
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radnu">
+                                    <input type="radio" class="form-check-input" id="radnu" name="gioitinh">Nữ
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <label for="DC" class="control-label col-md-3">Địa chỉ</label>
+                            <div class="col-md-12">
+                                <input type="text" id="DC" class="form-control" placeholder="Nhập địa chỉ">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-sucess btn-group-justified" id="Save" type="button" style="color: white; background-color: green;width: 100%;">
+                        ĐĂNG KÝ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="backtotop">
+        <i class="fa fa-arrow-circle-up"></i>
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop()) {
+                        $('#backtotop').fadeIn()
+                    } else {
+                        $('#backtotop').fadeOut()
+                    }
+                })
+                $('#backtotop').click(function() {
+                    $('html, body').animate({
+                        scrollTop: 0
+                    }, 750)
+                })
+            })
+        </script>
+    </div>
+</body>
+
+</html>
